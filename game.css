@@ -1,0 +1,57 @@
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    border: 3px solid black;
+    background-color: rgb(242, 156, 255);
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
+
+fieldset{
+    background-color: rgb(255, 252, 255);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#numbox{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body{
+    font-size: 25px;
+    
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+#timerClock{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
